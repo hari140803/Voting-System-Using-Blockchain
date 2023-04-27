@@ -12,8 +12,6 @@ To create the required database collections, refer to the `/server/Models` files
 
 To enable automatic email sending, add third-party verification to your email and register the app to get a secret key. Then, add the email and password in `/server/.env`.
 
-For more detail: https://support.google.com/accounts/answer/185833
-
 ### Ganache
 
 For free ethereum, install Ganache and add `/smart_contract/truffle-config.js` to your account to receive ten free accounts with 100 ETH.
