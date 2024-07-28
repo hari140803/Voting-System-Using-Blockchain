@@ -5,7 +5,7 @@ const Footer = () => (
   <>
     <AppBar position="static" component="footer" color="default">
       <Toolbar style={{ justifyContent: "center" }}>
-        <Typography variant="caption">Team-2 Mini Project VNR VJIET</Typography>
+        <Typography variant="caption">©2022</Typography>
       </Toolbar>
     </AppBar>
   </>

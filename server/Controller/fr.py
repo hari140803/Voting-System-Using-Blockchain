@@ -29,7 +29,8 @@ while True:
             ans.append(classNames[matchIndex])
             flag+=1
             break
-    # cv2.imshow('webcam', img)
+    cv2.namedWindow('webcam', cv2.WINDOW_NORMAL)
+    cv2.imshow('webcam', img)
     if (cv2.waitKey(1) & 0xFF == ord('q')) or flag==10:
 #         cap.release()
 #         cv2.destroyAllWindows()

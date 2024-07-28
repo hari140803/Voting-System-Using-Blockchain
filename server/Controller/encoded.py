@@ -3,13 +3,11 @@ import os
 import cv2
 import numpy as np
 
-# Add Your url "D:/study/sem-7/03) 4IT31/Lab/admin-project/server/Faces"
-path = "D:\mini\E-Voting-System-Using-Blockchain\server\Faces"
+path = "D:/Vasavi/E-Voting-System-Using-Blockchain/server/Faces"             
 
 classNames = [os.path.splitext(file)[0] for file in os.listdir(path)]
 
 images = [cv2.imread(os.path.join(path, file)) for file in os.listdir(path)]
-
 
 def findEncodings(images):
     encodeList = []
@@ -19,6 +17,4 @@ def findEncodings(images):
             encoded_face = face_recognition.face_encodings(img)[0]
             encodeList.append(encoded_face)
     return encodeList
-
-
 encoded_face_train = findEncodings(images)

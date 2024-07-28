@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/prnvbaraiya/admin-project/issues"
   },
-  "homepage": "https://github.com/prnvbaraiya/admin-project#readme",
-  "dependencies": {
-    "ethers": "^6.3.0"
-  }
+  "homepage": "https://github.com/prnvbaraiya/admin-project#readme"
 }
